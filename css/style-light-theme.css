@@ -1,0 +1,326 @@
+html,
+body {
+    color: #000;
+    background-color: #edeef0;
+}
+
+.checkbox-header__icon svg path {
+    fill: #000;
+}
+
+.scroll-btn {
+    background-color: #f8f9fa;
+  }
+.scroll-btn svg path {
+    fill: #333;
+  }
+
+.theme-button {
+    background-color: #ced4da;
+}
+
+.theme-button::before {
+    background-color: #fff;
+}
+
+.theme-button._active {
+    background-color: #6c757d;
+}
+
+.hello_block {
+    background-color: #fff;
+    border: 1px solid #e7e8ec;
+}
+
+.hello-header__number,
+.hello-header__link {
+    color: #939393;
+}
+
+.hello-user__top {
+    border-bottom: 1px solid #e7e8ec;
+}
+
+.hello-user__user {
+    border-bottom: 1px solid #e7e8ec;
+}
+
+.hello-user__subtitle {
+    color: #656565;
+}
+
+.hello-user__sublink {
+    color: #2a5885;
+}
+
+.item-friend__name {
+    color: #2a5885;
+}
+
+.item-group__title {
+    color: #2a5885;
+}
+
+.footer-hello__username {
+    color: #000;
+}
+
+.footer-saved__btn svg path {
+    fill: #b8bec6;
+}
+
+.footer-saved__link {
+    color: #2a5885;
+}
+
+.footer-messages__link {
+    color: #2a5885;
+}
+
+.footer-messages__link svg path {
+    fill: #b8bec6;
+}
+
+.message__body {
+    background-color: #fff;
+}
+
+.messages-item {
+    background-color: #fff;
+}
+.message-btn {
+    color: #fff;
+    background-color: #7991b5;
+}
+
+.messages-item::before {
+    background-color: #e7e8ec;
+}
+
+.messages-item__link {
+    color: #000;
+}
+
+.stat {
+    background-color: #dae0ea;
+}
+
+.stat svg path {
+    fill: #5181b8;
+}
+
+.stat__text {
+    color: #656565;
+}
+
+.attachments__list {
+    border-bottom: 1px solid #e7e8ec;
+}
+
+.attachments-item::before {
+    background-color: #e7e8ec;
+}
+
+.attachments-item__image svg path {
+    fill: #939393;
+}
+
+.attachments-item__title {
+    color: #000;
+}
+
+.attachments-item__subtitle {
+    color: #656565;
+}
+
+.attachments-item__icon {
+    background-color: #dae0ea;
+}
+
+.attachments-item__icon svg path {
+    fill: #abb9ca;
+}
+
+.document__item::before {
+    background-color: #e7e8ec;
+}
+
+.document__image svg path {
+    fill: #5181b8;
+}
+
+.document__title {
+    color: #2a5885;
+}
+
+.item-spoller {
+    background-color: #f1f3f4;
+}
+
+.item-spoller__btn {
+    background-color: #dae0ea;
+}
+
+.item-spoller__btn svg path {
+    fill: #5181b8;
+}
+
+.header-im {
+    background-color: #fff;
+    border-bottom: 1px solid #e7e8ec;
+}
+
+.header-im__title {
+    color: #000;
+}
+
+.header-im__subtitle {
+    color: #656565;
+}
+
+.tabs {
+    background-color: #f0f2f5;
+}
+
+.tabs::before {
+    background-color: #e7e8ec;
+}
+
+.tabs__title {
+    color: #656565;
+}
+
+.tabs__title._active {
+    color: #000;
+}
+
+.tabs__title._active::before {
+    background-color: #5181b8;
+}
+
+.message__subtitle {
+    color: #939393;
+}
+
+.message__name {
+    color: #2a5885;
+}
+
+.message__date {
+    color: #939393;
+}
+
+.message__text a {
+    color: #2a5885;
+}
+
+.repost {
+    border-left: 2px solid #e7e8ec;
+}
+
+.repost-mini {
+    border-left: 2px solid #e7e8ec;
+}
+
+.not-found {
+    color: #656565;
+}
+
+.header::before {
+    background-color: #fff;
+    border-bottom: 1px solid #e7e8ec;
+}
+
+.header__logo {
+    color: #000;
+}
+
+.btn {
+    color: #000;
+}
+
+.btn svg path:not(.no-path) {
+    fill: #5181b8;
+}
+
+#up, #down {
+    background-color: #fff;
+}
+
+#up svg path, #down svg path {
+    fill: #000;
+}
+
+.footer {
+    background-color: #fff;
+    border-top: 1px solid #e7e8ec;
+}
+
+.header-top {
+    background-color: #fff;
+    border-bottom: 1px solid #e7e8ec;
+}
+
+.link-item {
+    background-color: #fff;
+}
+
+.link-item::before {
+    background-color: #e7e8ec;
+}
+
+.link-item__title {
+    color: #2a5885;
+}
+
+.link-item__subtitle {
+    color: #656565;
+}
+
+.link-item__icon {
+    background-color: #dae0ea;
+}
+
+.link-item__icon svg path {
+    fill: #5181b8;
+}
+
+@media (max-width: 991.98px) {
+    .bottom-content {
+        background-color: #fff;
+        border-top: 1px solid #e7e8ec;
+    }
+}
+
+@media (any-hover: hover) {
+    .messages-item:hover {
+        background-color: #e5e7eb;
+    }
+
+    .scroll-btn:hover {
+       background-color:  #bbc5d7;
+      }
+    .attachments-item__body:hover {
+        background-color: #e5e7eb;
+    }
+
+    .tabs__title:hover:not(._active)::before {
+        background-color: #dce1e6;
+    }
+
+    .btn:hover {
+        background-color: #e5e7eb;
+    }
+
+    #up:hover {
+        background-color: #e5e7eb;
+    }
+
+    #down:hover {
+        background-color: #e5e7eb;
+    }
+
+    .link-item__body:hover {
+        background-color: #e5e7eb;
+    }
+}
